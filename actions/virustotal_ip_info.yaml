@@ -9,7 +9,7 @@
       type: 'string'
       default: "{{ st2kv.system.virus_total_api_key}}"
       required: true
-    test_p:
+    test_ip:
       type: 'string'
       default: "{{ st2kv.system.test_ip}}"
       required: true

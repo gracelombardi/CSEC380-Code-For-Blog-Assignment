@@ -1,0 +1,15 @@
+---
+  name: "virustotal_ip_info"
+  runner_type: "python-script"
+  description: Rreturn IP Analaysis Results"
+  enabled: true
+  entry_point: "virustotal_ip_info.py"
+  parameters:
+    api_key:
+      type: 'string'
+      default: "{{ st2kv.system.virus_total_api_key}}"
+      required: true
+    test_p:
+      type: 'string'
+      default: "{{ st2kv.system.test_ip}}"
+      required: true

@@ -1,0 +1,15 @@
+---
+  class_name: "VirusTotalPollingSensor"
+  entry_point: "virustotal_ip_safety_votes.py"
+  description: "Get IP safety votes results"
+  poll_interval: 120
+  enabled: true
+  trigger_types:
+    -
+      name: "ip_safety_votes"
+      description: "The result of ip safety votes"
+      payload_schema:
+        type: "object"
+        parameters:
+          results:
+            type: "string"

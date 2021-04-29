@@ -1,8 +1,8 @@
-# VirusTotal Action and Sensor for CSEC380 Grace Lombardi's Blog
+# VirusTotal Action and Sensor for Grace Lombardi's CSEC380 Blog
 
 ## Configuration
 
-When sshd into the Vagrant box run the following two commands:
+When ssh'd into the Vagrant box run the following two commands:
 
 `st2 key set virus_total_api_key <Insert Api Key Here>`
 
